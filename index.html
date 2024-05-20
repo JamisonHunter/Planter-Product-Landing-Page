@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenGarden</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/commons/9/99/Hexagon.svg">
+</head>
+<body>
+    <header id="header">
+        <div class="logo">
+            <img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/9/99/Hexagon.svg" alt="Logo"/>
+            <h3>OpenGarden</h3>
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#features">Features</a></li>
+                <li><a class="nav-link" href="#openscad">OpenSCAD</a></li>
+                <li><a class="nav-link" href="#pricing">Pricing</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h2 class="first-title">Open source, 3D printable planters</h2>
+        <p class="form-intro">Stay up to date with us!</p>
+        <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+            <input name="email" type="email" id="email" placeholder="example@gmail.com" required/>
+            <input id="submit" type="submit" value="Submit">
+        </form>
+        <img id="planter" width="300" alt="Image of a hexagonal garden planter" src="https://raw.githubusercontent.com/JamisonHunter/OpenGarden/main/images/hex_planter.jpg"/>
+    </div>
+    <div class="container">
+        <h1 id="features">Features</h1>
+        <div class="features">
+            <h3><i class="fas fa-code"></i> Open source designs</h3>
+            <h3><i class="fas fa-shipping-fast"></i> Fast 3 day shipping</h3>
+            <h3><i class="fas fa-print"></i> 3D printable for free</h3>
+        </div>
+    </div>
+    <div class="video-container container">
+        <h1 id="openscad">OpenSCAD</h1>
+        <div class="paragraph">
+            <p>These aren't your garden variety planters! These designs are created using OpenSCAD for efficiency. Feel free to edit any of our designs to your liking. You can use OpenSCAD in order to efficiently edit designs.</p>
+        </div>
+        <iframe alt="A video about OpenSCAD fundamentals" id="video" width="560" height="315" src="https://www.youtube.com/embed/KrFttd5D1cw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="container">
+        <h1 id="pricing">Pricing</h1>
+    </div>
+    <div class="prices">
+        <div class="small">
+            <h4>Short Planter</h4>
+            <p class="big-price">$5.99</p>
+            <button>Select</button>
+        </div>
+        <div class="large">
+            <h4>Tall Planter</h4>
+            <p class="big-price">$9.99</p>
+            <button>Select</button>
+        </div>
+    </div>
+    <footer>
+        <a target="_blank" href="https://github.com/JamisonHunter/OpenGarden/tree/main">OpenGarden Repository</a>
+    </footer>
+</body>
+</html>
